@@ -11,7 +11,7 @@ await connectDB();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+     origin: "https://task-manager-next-pied.vercel.app",
   }),
 );
 
